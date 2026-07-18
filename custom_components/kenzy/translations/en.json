@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to your Kenzy server",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "token": "Fleet token (from the dashboard's Settings page; leave empty if auth is disabled)",
+          "use_tls": "Use TLS (wss/https server)",
+          "verify_tls": "Verify TLS certificates (off for self-signed)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the Kenzy server",
+      "invalid_auth": "The fleet token was rejected",
+      "unknown": "Unexpected response from the Kenzy server"
+    },
+    "abort": {
+      "already_configured": "This Kenzy server is already configured"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "kenzy",
+  "name": "Kenzy",
+  "codeowners": ["@lnxusr1"],
+  "config_flow": true,
+  "dependencies": ["conversation"],
+  "documentation": "https://docs.kenzy.ai",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/lnxusr1/kenzy-hass/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
